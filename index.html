@@ -4,11 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>GP Simulator</title>
+    <script src="./teams.js"></script>
+    <script src="./qualification.js"></script>
+    <script src="./race.js"></script>
   </head>
+
   <body>
-    <script type="module" src="race.js"></script>
-    <script type="module" src="qualification.js"></script>
-    <script type="module" src="teams.js"></script>
+    <div class="row">
+      <div class="quali">
+        <h1>Qualification result</h1>
+        <button type="button" id="quali-btn" onclick="simulateQuali()">
+          Simulate the qualification
+        </button>
+        <p id="qualiResult"></p>
+      </div>
+      <div class="race">
+        <h1>Race results</h1>
+        <button
+          type="button"
+          disabled="true"
+          id="race-btn"
+          onclick="simulateRace()"
+        >
+          Simulate the racing
+        </button>
+        <p id="raceResult"></p>
+      </div>
+    </div>
+    <script src="./simulate.js"></script>
   </body>
 </html>

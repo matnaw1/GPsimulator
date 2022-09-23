@@ -1,9 +1,7 @@
-import drivers from "./teams.js";
-
 let preQuali = drivers;
 let Q1results = [];
 let Q2results = [];
-let afterQuali = [];
+var afterQuali = [];
 
 //Q1 simulation
 function Q1() {
@@ -64,4 +62,8 @@ Q1();
 Q2();
 Q3();
 
-export default afterQuali;
+//Adding grid position to each driver
+for (let i = 0; i < afterQuali.length; i++) {
+  afterQuali[i].qualiGrid = 0;
+  afterQuali[i].qualiGrid += i + 1;
+}

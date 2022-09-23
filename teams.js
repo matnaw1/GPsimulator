@@ -1,4 +1,4 @@
-const drivers = [
+var drivers = [
   {
     name: "Lewis",
     surname: "Hamilton",
@@ -6,6 +6,8 @@ const drivers = [
     powerPoints: 9,
     qualiPoints: 0,
     gridPosition: 0,
+    qualiGrid: 0,
+    racingPoints: 0,
   },
   {
     name: "George",
@@ -14,6 +16,8 @@ const drivers = [
     powerPoints: 7,
     qualiPoints: 0,
     gridPosition: 0,
+    qualiGrid: 0,
+    racingPoints: 0,
   },
   {
     name: "Max",
@@ -22,6 +26,8 @@ const drivers = [
     powerPoints: 9,
     qualiPoints: 0,
     gridPosition: 0,
+    qualiGrid: 0,
+    racingPoints: 0,
   },
   {
     name: "Sergio",
@@ -30,6 +36,8 @@ const drivers = [
     powerPoints: 7,
     qualiPoints: 0,
     gridPosition: 0,
+    qualiGrid: 0,
+    racingPoints: 0,
   },
   {
     name: "Lando",
@@ -38,6 +46,8 @@ const drivers = [
     powerPoints: 6,
     qualiPoints: 0,
     gridPosition: 0,
+    qualiGrid: 0,
+    racingPoints: 0,
   },
   {
     name: "Daniel",
@@ -46,6 +56,8 @@ const drivers = [
     powerPoints: 5,
     qualiPoints: 0,
     gridPosition: 0,
+    qualiGrid: 0,
+    racingPoints: 0,
   },
   {
     name: "Alex",
@@ -54,6 +66,8 @@ const drivers = [
     powerPoints: 5,
     qualiPoints: 0,
     gridPosition: 0,
+    qualiGrid: 0,
+    racingPoints: 0,
   },
   {
     name: "Nicholas",
@@ -62,6 +76,8 @@ const drivers = [
     powerPoints: 3,
     qualiPoints: 0,
     gridPosition: 0,
+    qualiGrid: 0,
+    racingPoints: 0,
   },
   {
     name: "Charles",
@@ -70,6 +86,8 @@ const drivers = [
     powerPoints: 8,
     qualiPoints: 0,
     gridPosition: 0,
+    qualiGrid: 0,
+    racingPoints: 0,
   },
   {
     name: "Carlos",
@@ -78,6 +96,8 @@ const drivers = [
     powerPoints: 7,
     qualiPoints: 0,
     gridPosition: 0,
+    qualiGrid: 0,
+    racingPoints: 0,
   },
   {
     name: "Kevin",
@@ -86,6 +106,8 @@ const drivers = [
     powerPoints: 4,
     qualiPoints: 0,
     gridPosition: 0,
+    qualiGrid: 0,
+    racingPoints: 0,
   },
   {
     name: "Mick",
@@ -94,6 +116,8 @@ const drivers = [
     powerPoints: 4,
     qualiPoints: 0,
     gridPosition: 0,
+    qualiGrid: 0,
+    racingPoints: 0,
   },
   {
     name: "Sebastian",
@@ -102,6 +126,8 @@ const drivers = [
     powerPoints: 4,
     qualiPoints: 0,
     gridPosition: 0,
+    qualiGrid: 0,
+    racingPoints: 0,
   },
   {
     name: "Lance",
@@ -110,6 +136,8 @@ const drivers = [
     powerPoints: 5,
     qualiPoints: 0,
     gridPosition: 0,
+    qualiGrid: 0,
+    racingPoints: 0,
   },
   {
     name: "Fernando",
@@ -118,6 +146,8 @@ const drivers = [
     powerPoints: 6,
     qualiPoints: 0,
     gridPosition: 0,
+    qualiGrid: 0,
+    racingPoints: 0,
   },
   {
     name: "Esteban",
@@ -126,6 +156,8 @@ const drivers = [
     powerPoints: 6,
     qualiPoints: 0,
     gridPosition: 0,
+    qualiGrid: 0,
+    racingPoints: 0,
   },
   {
     name: "Pierre",
@@ -134,6 +166,8 @@ const drivers = [
     powerPoints: 6,
     qualiPoints: 0,
     gridPosition: 0,
+    qualiGrid: 0,
+    racingPoints: 0,
   },
   {
     name: "Yuki",
@@ -142,6 +176,8 @@ const drivers = [
     powerPoints: 5,
     qualiPoints: 0,
     gridPosition: 0,
+    qualiGrid: 0,
+    racingPoints: 0,
   },
   {
     name: "Valettri",
@@ -150,6 +186,8 @@ const drivers = [
     powerPoints: 6,
     qualiPoints: 0,
     gridPosition: 0,
+    qualiGrid: 0,
+    racingPoints: 0,
   },
   {
     name: "Guanyu",
@@ -158,7 +196,7 @@ const drivers = [
     powerPoints: 5,
     qualiPoints: 0,
     gridPosition: 0,
+    qualiGrid: 0,
+    racingPoints: 0,
   },
 ];
-
-export default drivers;
