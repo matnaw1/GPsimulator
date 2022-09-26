@@ -5,23 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>GP Simulator</title>
-    <script src="./teams.js"></script>
-    <script src="./qualification.js"></script>
-    <script src="./race.js"></script>
   </head>
 
   <body>
+    <div class="navbar">
+      <ul>
+        <li class="title">GP Simulator</li>
+      </ul>
+    </div>
     <div class="row">
       <div class="quali">
-        <h1>Qualification result</h1>
+        <!-- <h1>Qualification result</h1> -->
         <button type="button" id="quali-btn" onclick="simulateQuali()">
           Simulate the qualification
         </button>
         <p id="qualiResult"></p>
       </div>
       <div class="race">
-        <h1>Race results</h1>
+        <!-- <h1>Race results</h1> -->
         <button
           type="button"
           disabled="true"
@@ -33,6 +41,9 @@
         <p id="raceResult"></p>
       </div>
     </div>
+    <script src="./teams.js"></script>
+    <script src="./qualification.js"></script>
+    <script src="./race.js"></script>
     <script src="./simulate.js"></script>
   </body>
 </html>
