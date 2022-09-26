@@ -10,12 +10,10 @@ var simulateQuali = () => {
   for (let i = 0; i < afterQuali.length; i++) {
     document.getElementById("qualiResult").innerHTML +=
       afterQuali[i].qualiGrid +
-      " " +
+      ". " +
       afterQuali[i].name +
       " " +
       afterQuali[i].surname +
-      // " - " +
-      // quali[i].qualiPoints +
       "<br />";
   }
 
@@ -32,12 +30,10 @@ var simulateRace = () => {
   for (let i = 0; i < afterQuali.length; i++) {
     document.getElementById("raceResult").innerHTML +=
       raceResults[i].gridPosition +
-      " " +
+      ". " +
       raceResults[i].name +
       " " +
       raceResults[i].surname +
-      // " - " +
-      // raceResults[i].racingPoints +
       "<br />";
   }
 };
